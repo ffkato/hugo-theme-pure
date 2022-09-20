@@ -13,14 +13,6 @@ $(function() {
     });
   }
 
-  $('#collapseToc').on('shown.bs.collapse', function() {
-    // do something…
-    // slimscroll
-    if (typeof $.fn.slimScroll != 'undefined') {
-      $(".sidebar .slimContent").slimScroll().on('slimscroll');
-    }
-  });
-
   // geopattern 背景生成
   $(".geopattern").each(function() {
     $(this).geopattern($(this).data('pattern-id'));

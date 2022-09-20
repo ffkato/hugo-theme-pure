@@ -1,11 +1,6 @@
 
 nav_all:
   other: All
-nav_older:
-  other: Older
-nav_newer:
-  other: Newer
-
 
 page_home:
   other: Home
@@ -94,7 +89,7 @@ article_comments:
 article_share:
   other: Share
 article_catalogue:
-  other: Catalogue
+  other: Table of Contents
 
 total_article:
   one: Total {{ .Count }} article
@@ -142,7 +137,7 @@ rss_feed:
 
 
 copyright_theme_by:
-  other: Theme by
+  other: Theme
 copyright_base_on:
   other: base on
 copyright_powered_by:

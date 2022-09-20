@@ -1,21 +1,9 @@
 @charset "UTF-8";
 
-/**
- * global variables and mixins
- */
-
-/**
- * font family
- */
-/**
- * 
- */
-
-/* Mixins */
-
-/**
- * bootstrap
- */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -24,13 +12,6 @@
  */
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
-html {
-  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
 body {
   margin: 0;
 }
@@ -2939,7 +2920,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Noto Sans", "Noto Sans SC Sliced", "WenQuanYi Micro Hei", "PingFang SC", "Microsoft YaHei", sans-serif, serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -3256,8 +3237,8 @@ body {
 
 body {
   padding-right: 0 !important;
-  font-family: "Source Han Sans","Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 14px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Noto Sans", "Noto Sans SC Sliced", "WenQuanYi Micro Hei", "PingFang SC", "Microsoft YaHei", sans-serif, serif;
+  font-size: 15px;
   line-height: 1.57143;
   color: #333333;
   background-color: #fff;
@@ -5873,12 +5854,13 @@ body.no-sidebar .sidebar {
 
 /**
  * search
+ * add top margin because of no profile
  */
 
 .sidebar-form {
   border-radius: 3px;
   border: 1px solid #eee;
-  margin: 0 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
 }
 
 .sidebar-form input[type="text"],
@@ -6009,6 +5991,7 @@ body.no-sidebar .sidebar {
 .main .article-meta {
   font-size: 13px;
   color: #999;
+  margin-top: 1em;
 }
 
 .main .article-meta a {
@@ -6164,11 +6147,7 @@ body.no-sidebar .sidebar {
   opacity: 0.8;
 }
 
-.sidebar-toc.collapse {
-  display: none !important;
-}
-
-.sidebar-toc.in {
+.sidebar-toc {
   display: block !important;
 }
 
@@ -7136,7 +7115,7 @@ body.okayNav-loaded {
   box-sizing: border-box;
   padding: 12px 28px 12px 20px;
   border-bottom: 1px solid #e2e2e2;
-  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Noto Sans", "Noto Sans SC Sliced", "WenQuanYi Micro Hei", "PingFang SC", "Microsoft YaHei", sans-serif, serif;
 }
 
 .ins-close {
